@@ -260,7 +260,7 @@
   <section id="principal" aria-label="Página principal con botones de navegación">
     <div class="overlay"></div>
     <div class="content">
-      <h1>MEDIDAS PREVENTIVAS PARA EVITAR EL CIBERBULLYING EN EL ÁMBITO ESCOLAR</h1>
+      <h1>MEDIDAS PREVENTIVAS PARA EVITAR EL BULLYING EN EL ÁMBITO ESCOLAR</h1>
       <div class="button-container" role="navigation" aria-label="Navegación principal">
         <button type="button" aria-controls="estudiantes" aria-expanded="false" onclick="showSection('estudiantes', this)">Dirigida para estudiantes</button>
         <button type="button" aria-controls="docentes" aria-expanded="false" onclick="showSection('docentes', this)">Dirigida para Docentes y autoridades</button>
@@ -274,8 +274,10 @@
     <div class="content">
       <h2>Dirigida para estudiantes</h2>
       <p>
-        El ciberbullying es el acoso que ocurre mediante el uso de internet y redes sociales.
-        Para prevenir el ciberbullying, los estudiantes deben aprender a utilizar internet de forma segura y responsable. Es fundamental no compartir contraseñas, información personal ni fotos comprometedoras, ya que estas pueden ser usadas para hacer daño. Configurar la privacidad en redes sociales limita quién puede ver sus publicaciones y contactarles. Si un estudiante recibe mensajes ofensivos o amenazantes, debe guardar evidencia (capturas de pantalla o mensajes) y reportarlo de inmediato a un adulto de confianza, como padres, tutores o profesores, quienes pueden ayudar a tomar las medidas adecuadas, como denunciar a la plataforma o incluso a las autoridades si es necesario. También es importante que los estudiantes eviten responder al agresor, bloqueen a esa persona y recuerden que el respeto y la empatía en internet son esenciales para mantener un ambiente seguro. Participar en campañas o talleres escolares sobre convivencia digital también es una excelente manera de aprender a prevenir y actuar ante el ciberbullying.
+       Concepto sobre el bullying:
+El bullying es una forma de violencia sistemática que ocurre principalmente en entornos escolares, donde uno o varios estudiantes ejercen agresión física, verbal, psicológica o social hacia otro de manera intencional y repetida. Este tipo de comportamiento busca causar daño, humillación o intimidación, afectando profundamente la autoestima, el bienestar emocional y el rendimiento académico de la víctima.
+Medidas de prevención dirigido especialmente a estudiantes:
+La prevención del bullying comienza con el compromiso de todos los estudiantes en promover un ambiente de respeto, empatía y solidaridad. Es esencial reconocer que cada acción cuenta: evitar reírse de las burlas, no difundir rumores y no quedarse callado frente al maltrato son pasos fundamentales. Si eres testigo de una situación de acoso, no seas cómplice; apoya a quien sufre y busca la ayuda de un docente, consejero o adulto de confianza. Participar activamente en campañas escolares sobre convivencia pacífica, asistir a charlas sobre valores y trabajar en equipo con compañeros ayuda a fortalecer la unión entre estudiantes y a reducir los conflictos. Además, aprender a gestionar emociones, dialogar con respeto y aceptar las diferencias nos convierte en agentes de cambio que contribuyen a una comunidad estudiantil más justa, segura y libre de violencia.
       </p>
       <button type="button" onclick="toggleForm('formDenuncia')" class="btn-primary">Denuncia Anónima</button>
       <form id="formDenuncia" class="formulario" style="display:none;" novalidate aria-live="polite">
@@ -302,8 +304,10 @@
     <div class="content">
       <h2>Dirigida para Docentes y autoridades</h2>
       <p>
-        El ciberbullying es una forma de acoso que se realiza mediante medios digitales como redes sociales, mensajes o correos electrónicos.
-        Los docentes tienen un rol fundamental en la prevención del ciberbullying, ya que son figuras clave para educar y proteger a los estudiantes en el entorno escolar y digital. Para prevenir esta problemática, es esencial que los docentes promuevan un clima de respeto, empatía y comunicación abierta tanto dentro como fuera del aula. Es recomendable establecer normas claras sobre el uso responsable de la tecnología y explicar detalladamente las consecuencias que el acoso virtual puede tener a nivel emocional, social y legal. Los docentes deben fomentar el desarrollo de habilidades socioemocionales en los estudiantes, como la empatía, la tolerancia y el autocontrol, para prevenir conductas agresivas en línea. Además, es importante estar atentos a señales de alerta como cambios en el comportamiento, aislamiento, tristeza o bajo rendimiento académico, ya que pueden ser indicios de que un estudiante está siendo víctima de ciberbullying. Ante cualquier sospecha, es necesario actuar con prontitud, siguiendo los protocolos institucionales y comunicando el caso a las autoridades escolares y a los padres o representantes. También se recomienda organizar talleres y campañas de concienciación sobre el ciberbullying, donde se involucren estudiantes, docentes y familias, y se promueva el uso seguro y responsable de Internet. Finalmente, es clave que los docentes se mantengan actualizados sobre el tema y aprovechen recursos digitales educativos para enseñar sobre la seguridad en línea, con el fin de crear una cultura de prevención y apoyo dentro de la comunidad educativa.
+       Concepto sobre el bullying:
+El bullying es una forma de violencia repetida entre estudiantes, donde uno o varios agreden intencionalmente a otro, afectando su bienestar emocional y social.
+       Medidas de prevención dirigido especialmente a docentes:
+Los docentes desempeñan un papel clave en la prevención y detección temprana del bullying. Es fundamental que mantengan una observación atenta y constante del comportamiento de sus estudiantes, promoviendo desde el aula una cultura de respeto, inclusión y empatía. Fomentar el diálogo, establecer normas claras de convivencia y generar espacios seguros donde cada estudiante se sienta valorado son acciones esenciales. Ante cualquier señal de acoso escolar, el docente debe actuar con prontitud, sin minimizar la situación, aplicando los protocolos establecidos por la institución y trabajando de forma coordinada con padres, autoridades escolares y personal especializado. Además, integrar la educación emocional en las actividades cotidianas permite a los estudiantes desarrollar habilidades para resolver conflictos de manera pacífica y reconocer el valor de la diversidad. El compromiso docente no solo detiene el bullying, sino que transforma el aula en un espacio de bienestar y aprendizaje integral.
       </p>
       <div class="footer-buttons">
         <button type="button" onclick="alert('Redirigiendo a Reporte de denuncias')">Reporte de denuncias</button>
@@ -319,8 +323,10 @@
     <div class="content">
       <h2>Dirigida para padres de Familia</h2>
       <p>
-        El ciberbullying es una forma de acoso que se realiza mediante redes sociales, mensajes o plataformas digitales.
-        Prevenir el ciberbullying requiere una participación activa y constante de los padres en la vida digital de sus hijos. Es importante establecer un diálogo abierto y de confianza, donde los niños y adolescentes se sientan cómodos para contar si reciben mensajes ofensivos, amenazas o cualquier situación que los haga sentir incómodos en internet. Los padres deben enseñar a sus hijos a proteger su privacidad, evitando compartir datos personales, fotos o ubicaciones con personas desconocidas. También es fundamental establecer reglas claras sobre el uso de dispositivos, como horarios para conectarse y límites en el acceso a redes sociales o juegos en línea. Enseñarles a bloquear y reportar a los agresores, así como a no responder a mensajes ofensivos, es otra medida clave. Además, los padres pueden revisar periódicamente las cuentas digitales de sus hijos y utilizar herramientas de control parental para monitorear su actividad. Fomentar el respeto hacia los demás en línea y reforzar valores como la empatía y la tolerancia contribuirá a formar un entorno virtual más seguro y sano para todos.
+        Concepto sobre el bullying:
+El bullying es una forma de maltrato intencional y repetido entre estudiantes, que puede ser físico, verbal o emocional, y afecta gravemente la autoestima y bienestar de los niños y adolescentes.
+        Medidas de prevención dirigido especialmente a padres de familia:
+Los padres juegan un papel fundamental en la prevención del bullying. Es importante mantener una comunicación abierta y constante con sus hijos, escucharlos con atención y observar cualquier cambio en su comportamiento o estado de ánimo. Fomentar en casa valores como el respeto, la empatía y la tolerancia ayuda a que los niños aprendan a convivir en armonía con los demás. También es clave enseñarles a no guardar silencio ante situaciones de acoso, ya sea que lo sufran o lo presencien, y a confiar en los adultos responsables. Estar involucrados en la vida escolar, asistir a reuniones, colaborar con los docentes y promover el diálogo con otros padres contribuye a construir una comunidad educativa unida, donde el bullying no tenga espacio.
       </p>
       <button type="button" onclick="toggleForm('formCita')" class="btn-primary">Agendar cita</button>
       <form id="formCita" class="formulario" style="display:none;" novalidate aria-live="polite">
